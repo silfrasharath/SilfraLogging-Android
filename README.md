@@ -38,22 +38,19 @@ How to use methods of this Library
 
 1.	To print your message on a LogCat Debug:
 
-		LogDebug.silfraLogs(YOUR_ACTIVITY,"Message");
+		LogDebug.silfraLogs("YOUR MESSAGE HERE");
 
 
 2.	To print your message on a LogCat Info:
 
-		LogError.silfraLogs(YOUR_ACTIVITY,"Message");
+		LogError.silfraLogs("YOUR MESSAGE HERE");
 
 
 3.	To print your message on a LogCat Error:
 		
-		LogInfo.silfraLogs(YOUR_ACTIVITY,"Message");
+		LogInfo.silfraLogs("YOUR MESSAGE HERE");
 
-
-Arg(2) : You can pass Your Activity name (Eg: MainActivity.this) in place of YOUR_ACTIVITY
-
-Arg(2) : Any String or a String Variable can be passed on in place of “Message”
+Arg(1) : Any String or a String Variable can be passed on in place of “YOUR MESSAGE HERE”
 
 
 Thank You…
