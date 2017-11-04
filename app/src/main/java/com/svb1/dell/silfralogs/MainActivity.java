@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.svb1.dell.silfralogs.LogDebug;
-import com.svb1.dell.silfralogs.LogError;
-import com.svb1.dell.silfralogs.LogInfo;
+import com.svb1.dell.silfralogging.LogDebug;
+import com.svb1.dell.silfralogging.LogError;
+import com.svb1.dell.silfralogging.LogInfo;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
