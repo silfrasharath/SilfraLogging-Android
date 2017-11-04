@@ -30,7 +30,7 @@ Step1: Add your Jitpack Repository to your Build.gradle (Project Level) file
 
 Step2: Add the dependency to the Module.Gradle (app level) file
 
-	compile 'com.github.silfrasharath:SilfraLogging-Android:83c3875c30'
+	 compile 'com.github.silfrasharath:SilfraLogging-Android:1.0.0'
 
 Step3: Now Sync the project with gradle.
 Now you will be able to use the methods of the library as shone in below section
