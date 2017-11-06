@@ -33,6 +33,13 @@ Step2: Add the dependency to the Module.Gradle (app level) file
 	 compile 'com.github.silfrasharath:SilfraLogging-Android:1.0.1'
 
 Step3: Now Sync the project with gradle.
+
+Step4: Add following 3 imports in your Activity.java file
+	
+	import static com.svb1.dell.silfralogging.LogDebug.logDebug;
+	import static com.svb1.dell.silfralogging.LogError.logError;
+	import static com.svb1.dell.silfralogging.LogInfo.logInfo;	
+	
 Now you will be able to use the methods of the library as shone in below section
 How to use methods of this Library
 
