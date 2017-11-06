@@ -7,7 +7,7 @@ import android.util.Log;
  */
 
 public class LogDebug {
-    public static void silfraLogs(String message){
+    public static void logDebug(String message){
         String TAG=" ";
         try {
             if(message.equals("")){
@@ -17,7 +17,7 @@ public class LogDebug {
             }
         }
         catch (Exception e){                                  //Exceptions (Eg: Null pointer Exception if parameter h null) catching done here
-            String s="Silfra Exception:"+e.toString();        //Appending string "Silfra Exception:" with error message caught
+            String s="Exception LogDebug:"+e.toString();        //Appending string "Exception LogDebug" with error message caught
             Log.d(TAG,s);                                      //prining string with error message on LogCat debug
         }
     }
