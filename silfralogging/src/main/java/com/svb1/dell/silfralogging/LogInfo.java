@@ -7,7 +7,7 @@ import android.util.Log;
  */
 
 public class LogInfo {
-    public static void silfraLogs(String message){
+    public static void logInfo(String message){
         String TAG=" ";
         try {
             if(message.equals("")){
@@ -17,7 +17,7 @@ public class LogInfo {
             }
         }
         catch (Exception e){                                  //Catching any exceptions (Eg: Null Pointer Exception if parameter has null)
-            String s="Silfra Exception:"+e.toString();        //Appending string "Silfra Exception:" with caught exception's message
+            String s="Exception LogInfo:"+e.toString();        //Appending string "Exception LogInfo:" with caught exception's message
             Log.i(TAG,s);                                     //Printing string with error message on to LogCat error
         }
     }
