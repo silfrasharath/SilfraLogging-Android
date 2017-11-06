@@ -45,17 +45,17 @@ How to use methods of this Library
 
 1.	To print your message on a LogCat Debug:
 
-		LogDebug.logDebug("YOUR MESSAGE HERE");
+		logDebug("YOUR MESSAGE HERE");
 
 
 2.	To print your message on a LogCat Info:
 
-		LogError.logDebug("YOUR MESSAGE HERE");
+		logInfo("YOUR MESSAGE HERE");
 
 
 3.	To print your message on a LogCat Error:
 		
-		LogInfo.logDebug("YOUR MESSAGE HERE");
+		logError("YOUR MESSAGE HERE");
 
 Arg(1) : Any String or a String Variable can be passed on in place of “YOUR MESSAGE HERE”
 
