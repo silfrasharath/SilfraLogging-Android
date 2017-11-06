@@ -38,17 +38,17 @@ How to use methods of this Library
 
 1.	To print your message on a LogCat Debug:
 
-		LogDebug.silfraLogs("YOUR MESSAGE HERE");
+		LogDebug.logDebug("YOUR MESSAGE HERE");
 
 
 2.	To print your message on a LogCat Info:
 
-		LogError.silfraLogs("YOUR MESSAGE HERE");
+		LogError.logDebug("YOUR MESSAGE HERE");
 
 
 3.	To print your message on a LogCat Error:
 		
-		LogInfo.silfraLogs("YOUR MESSAGE HERE");
+		LogInfo.logDebug("YOUR MESSAGE HERE");
 
 Arg(1) : Any String or a String Variable can be passed on in place of “YOUR MESSAGE HERE”
 
